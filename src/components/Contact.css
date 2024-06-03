@@ -1,0 +1,25 @@
+section#contact {
+  padding: 50px;
+  background-color: #333;
+  color:white;
+  text-align: center;
+}
+
+section#contact a {
+  margin: 0 10px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#contact {
+  animation: text-flicker 1s infinite alternate;
+}
+
+@keyframes text-flicker {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.5;
+  }
+}

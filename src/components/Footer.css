@@ -1,0 +1,15 @@
+footer {
+    padding: 5px;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  footer {
+    position:absolute;
+    left:0;
+    bottom: 0;
+    width: 100%;
+  }
+  

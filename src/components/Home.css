@@ -1,0 +1,49 @@
+.home {
+  padding: 2rem;
+  background-color: #f1eded;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.intro {
+  max-width: 80%;
+}
+
+.intro h1,
+.intro h2 {
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.intro p {
+  margin: 1rem 0;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  background-color: #0055ff;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #000000;
+}
+
+.home h2 {
+  animation: text-flicker 1s infinite alternate;
+}
+
+@keyframes text-flicker {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
